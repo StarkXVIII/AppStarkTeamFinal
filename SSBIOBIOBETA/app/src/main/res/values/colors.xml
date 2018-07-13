@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--se escoge el color del menu en este caso es rosado -->
+    <color name="colorPrimary">#FF4081</color>
+    <color name="colorPrimaryDark">#FF4081</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorActionBarTitle">#ffffff</color>
+    <color name="red">#ff0004</color>
+    <color name="black">#000000</color>
+    <color name="pink">#FF4081</color>
+    <color name="write">#ffffff</color>
+    <color name="gris">#717171</color>
+</resources>

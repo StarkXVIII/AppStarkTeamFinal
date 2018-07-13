@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cl.ubiobio.nicolas.ssbiobiobeta.BotonConsultaPaciente"
+    android:background="@drawable/background_dos">
+    <!-- se establece la visualizacion que tendra la funcion del boton 1, ya sea el tamaño del texto, donde ira, etc -->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="263dp"
+        android:layout_height="182dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        app:srcCompat="@drawable/consulta_paciente" />
+
+    <EditText
+        android:id="@+id/rutPacienteParteUno"
+        android:layout_width="177dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/imageView"
+        android:layout_marginTop="213dp"
+        android:background="#11000000"
+        android:ems="10"
+        android:hint="Rut Paciente"
+        android:inputType="number"
+        android:textColor="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/espacio"
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rutPacienteParteUno"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/folioPaciente"
+        android:layout_width="177dp"
+        android:layout_height="39dp"
+        android:layout_alignStart="@+id/imageView"
+        android:layout_below="@+id/espacio"
+        android:background="#11000000"
+        android:hint="Folio"
+        android:inputType="number"
+        android:textColor="@color/colorAccent" />
+
+
+    <EditText
+        android:id="@+id/rutPacienteParteDos"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/rutPacienteParteUno"
+        android:layout_marginEnd="81dp"
+        android:background="#11000000"
+        android:ems="10"
+        android:textColor="@color/colorAccent" />
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardViewFolio"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/folioPaciente"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp"
+        app:cardBackgroundColor="@color/colorAccent"
+        app:cardCornerRadius="25dp"
+        app:cardElevation="10dp">
+
+
+        <TextView
+            android:id="@+id/botonConsultarPaciente"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:text="Consultar"
+            android:textColor="#fff"
+            android:textSize="18sp" />
+
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_above="@+id/linearLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="6dp" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView2"
+        android:layout_alignParentStart="true"
+        android:text=" > Puede conocer el estado de atención de un paciente ingresando su rut y folio."
+        android:textAlignment="center"
+        android:textSize="24dp" />
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/audio"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        app:cardCornerRadius="25dp"
+        app:cardElevation="10dp">
+
+        <ImageView
+            android:src="@drawable/mini_audio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/llamar"
+            android:layout_gravity="center"
+            android:layout_toStartOf="@+id/ver"
+            android:textColor="#fff"
+            android:textSize="18sp" />
+    </android.support.v7.widget.CardView>
+</RelativeLayout>
+

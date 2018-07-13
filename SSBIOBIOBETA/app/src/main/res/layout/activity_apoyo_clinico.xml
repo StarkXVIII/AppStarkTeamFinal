@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ApoyoClinico">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints">
+
+        <Button
+
+            android:id="@+id/consultaboton"
+            style="@style/ButtonText"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/azulboton"
+            android:text="Proceso Apoyo Diagnóstico de Lab.Clínico" />
+
+        <TextView
+            android:id="@+id/consulta"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/consultaboton"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:text="-Subproceso Exámenes Hematológicos
+-Subproceso Exámenes Bioquímico
+-Subproceso Exámenes Hormonales
+-Subproceso Exámen Inmunológicos
+-Subprocesos Exámen Microbiológicos
+-Subprocesos Exámen de Desposiciones exudados, secreciones y otros líquidos
+-Subproductos Exámen de Orina"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/consultaboton2"
+            style="@style/ButtonText"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/consulta"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/azulboton"
+            android:text="Medicina Transfusional" />
+
+        <TextView
+            android:id="@+id/consulta2"
+            android:visibility="gone"
+            android:textSize="20sp"
+            android:layout_below="@+id/consultaboton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:text="-Proceso Apoyo Terapéutico de Medicina Transfucional
+            -Proceso Apoyo Diagnóstico de Banco de Sangre
+            -Apoyo Terapéutico de Medicina Transfusional
+" />
+        <Button
+            style="@style/ButtonText"
+            android:background="@drawable/azulboton"
+            android:id="@+id/consultaboton3"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/consulta2"
+            android:layout_centerHorizontal="true"
+            android:text="Imagenología" />
+
+        <TextView
+            android:id="@+id/consulta3"
+            android:textSize="20sp"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/consultaboton3"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:text="-Proceso Apoyo Diagnóstico de Imagenología"/>
+        <Button
+            style="@style/ButtonText"
+            android:background="@drawable/azulboton"
+            android:id="@+id/consultaboton4"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/consulta3"
+            android:layout_centerHorizontal="true"
+            android:text="Farmacia Clínica" />
+
+        <TextView
+            android:id="@+id/consulta4"
+            android:textSize="20sp"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/consultaboton4"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:text="-Proceso Aplicación Terapéutica Farmacológica"/>
+
+        <Button
+            style="@style/ButtonText"
+            android:background="@drawable/azulboton"
+            android:id="@+id/consultaboton5"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/consulta4"
+            android:layout_centerHorizontal="true"
+            android:text="Anatomía Patológica" />
+
+        <TextView
+            android:id="@+id/consulta5"
+            android:textSize="20sp"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/consultaboton5"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:text="-Proceso Apoyo Diagnóstico de Anatomía Patológica"/>
+
+        <Button
+            style="@style/ButtonText"
+            android:background="@drawable/azulboton"
+            android:id="@+id/consultaboton6"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/consulta5"
+            android:layout_centerHorizontal="true"
+            android:text="Endoscopía" />
+
+        <TextView
+            android:id="@+id/consulta6"
+            android:textSize="20sp"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/consultaboton6"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:text="-Proceso Aplicación Terapéutica de Endoscopia"/>
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

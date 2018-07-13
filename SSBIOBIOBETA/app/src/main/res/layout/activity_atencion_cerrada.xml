@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AtencionCerrada">
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:id="@+id/consultaboton"
+            style="@style/ButtonText"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/azulboton"
+            android:text="Atención Cerrada Quirúrgica" />
+
+        <TextView
+            android:id="@+id/consulta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/consultaboton"
+            android:layout_centerHorizontal="true"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:text="-Cirugía de Cardiológica
+-Cirugía del Aparato Digestivo
+-Cirugía Vascular Periférica
+-Cirugía Neurocirugía
+-Cirugía Maxilofacial
+-Cirugía Traumatología
+-Cirugía Urología
+-Cirugía Otorrinología
+-Cirugía Oftalmología
+"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/consultaboton2"
+            style="@style/ButtonText"
+            android:background="@drawable/azulboton"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/consulta"
+            android:layout_centerHorizontal="true"
+
+            android:text="Aplicación Terapéutica de Intervención Quirúrgica" />
+
+        <TextView
+            android:id="@+id/consulta2"
+            android:visibility="gone"
+            android:textSize="20sp"
+            android:layout_below="@+id/consultaboton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:text="-Anestesia General
+-Anestesia Regional(local, trocular, neuroaxial, regional, intravenosa, bloques nervios periféricos y otros)
+-Analgesia-Sedación
+-Procedimientos de Reanimación
+-Procedimientos Invasivos
+-Monitorización
+-Manejo del Dolor" />
+
+        <Button
+            android:id="@+id/consultaboton3"
+            style="@style/ButtonText"
+            android:background="@drawable/azulboton"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/consulta2"
+            android:layout_centerHorizontal="true"
+
+            android:text="Atencion Cerrada Médica" />
+
+        <TextView
+            android:id="@+id/consulta3"
+            android:visibility="gone"
+            android:textSize="20sp"
+            android:layout_below="@+id/consultaboton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="-Egresos Obstétricos
+-Egresos Ginecológicos
+-Egresos Pediátricos" />
+
+        <Button
+            android:id="@+id/consultaboton4"
+            style="@style/ButtonText"
+            android:background="@drawable/azulboton"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/consulta3"
+            android:layout_centerHorizontal="true"
+
+            android:text="Apoyo Diagnóstico de procedimientos médicos" />
+
+        <TextView
+            android:id="@+id/consulta4"
+            android:visibility="gone"
+            android:textSize="20sp"
+            android:layout_below="@+id/consultaboton4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:text="-Examen de Amniocentesis
+-Examen de Amnioscopia
+-Examen de Amnioscentesis
+-Examen de Monitoreo fetal basal con informe
+-Examen de Monitoreo fetal estresante c/ct. Perman
+-Examen de Biopsia endometr. Vulva vagina cuello
+-Examen de Colocación o extracción d.i.u
+-Examen de Electrodiat./criocoagul. Lesiones cuello" />
+
+        <Button
+            android:id="@+id/consultaboton5"
+            style="@style/ButtonText"
+            android:background="@drawable/azulboton"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/consulta4"
+            android:layout_centerHorizontal="true"
+
+            android:text="Atención Cerrada de especialidades médicas" />
+
+        <TextView
+            android:id="@+id/consulta5"
+            android:visibility="gone"
+            android:textSize="20sp"
+            android:layout_below="@+id/consultaboton5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:text="-Egresos Pediatría
+-Egresos Broncopulmonar Infantil
+-Egresos Cardiológicos Infantil
+-Egresos Endocrinológicos Infantil
+-Egresos Gastroenterológicos Infantil
+-Egresos Hermatológicos Infantil
+-Egresos Nefrológicos Infantil
+-Egresos Reumatológicos Infantil
+-Egresos Dermatológicos Infantil
+-Egresos Fisiatría
+-Egresos de Neurología Infantil
+-Egresos de Neonatología" />
+
+        <Button
+            android:id="@+id/consultaboton6"
+            style="@style/ButtonText"
+            android:background="@drawable/azulboton"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/consulta5"
+            android:layout_centerHorizontal="true"
+
+            android:text="Atención Cerrada de especialidades Quirúrgicas" />
+
+        <TextView
+            android:id="@+id/consulta6"
+            android:visibility="gone"
+            android:textSize="20sp"
+            android:layout_below="@+id/consultaboton6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:text="-Cirugía Traumatología Infantil
+-Cirugía Urología
+-Cirugía Otorrinología
+-Cirugía Oftamología
+-Cirugía Infantil" />
+
+        <Button
+            android:id="@+id/consultaboton7"
+            style="@style/ButtonText"
+            android:background="@drawable/azulboton"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/consulta6"
+            android:layout_centerHorizontal="true"
+
+            android:text="Aplicación Terapéutica de Atención del paciente Crítico" />
+
+        <TextView
+            android:id="@+id/consulta7"
+            android:visibility="gone"
+            android:textSize="20sp"
+            android:layout_below="@+id/consultaboton7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:text="-Paciente Crítico Intensivo
+-Paciente Crítico Intermedio
+-Paciente Crítico Neonatológico Intermedio
+-Paciente Crítico Neonatológico Intensivo" />
+
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

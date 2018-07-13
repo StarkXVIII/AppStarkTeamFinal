@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AtencionUrgencia">
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints">
+
+
+        <Button
+            android:id="@+id/consultaboton"
+            style="@style/ButtonText"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/azulboton"
+            android:text="Atención Urgencia/ Emergencia y Rescate" />
+
+        <TextView
+            android:id="@+id/consulta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/consultaboton"
+            android:layout_centerHorizontal="true"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:text="-Traumatología
+-Pediátrica
+-Cirugia General Pediátrico
+-Cirugía General Adulto
+-Medicina Interna Pediátrica
+-Medicina Interna Adulto
+-Gineco Obstétrica
+-UPC Adulto
+-Gineco UPC Pediátrico
+
+"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/consultaboton2"
+            style="@style/ButtonText"
+            android:background="@drawable/azulboton"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/consulta"
+            android:layout_centerHorizontal="true"
+
+            android:text="Traslado Urgencia/Emergencia" />
+
+        <TextView
+            android:id="@+id/consulta2"
+            android:visibility="gone"
+            android:textSize="20sp"
+            android:layout_below="@+id/consultaboton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:text="-Traumatología Pediátrica
+-Traumatología Adulto
+-Cirugía General Pediátrico
+-Cirugía General Adulto
+-Medicina Interna Pediátrica
+-Medicina Interna Adulto
+-Gineco Obstétrica
+-Psiquiatría" />
+
+        <Button
+            android:id="@+id/consultaboton3"
+            style="@style/ButtonText"
+            android:background="@drawable/azulboton"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/consulta2"
+            android:layout_centerHorizontal="true"
+
+            android:text="Aplicación Terapéutico de Atención del Paciente Crítico" />
+
+        <TextView
+            android:id="@+id/consulta3"
+            android:visibility="gone"
+            android:textSize="20sp"
+            android:layout_below="@+id/consultaboton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:text="-Atención Paciente Crítico Adulto Intensivo
+-Atención Paciente Crítico Intermedio" />
+
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
